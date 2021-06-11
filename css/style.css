@@ -17,11 +17,12 @@ header {
 
 header nav {
   padding: var(--fs-600) 0;
+  width: 100%;
 }
 
 header nav ul {
   padding-left: var(--fs-600);
-  padding-right: 35rem;
+  padding-right: var(--fs-600);
 }
 
 header nav ul li {
