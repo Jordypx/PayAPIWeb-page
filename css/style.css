@@ -8,6 +8,7 @@
   margin: 0 auto;
   max-width: 1440px;
   overflow-x: hidden;
+  height: 4450px;
 }
 /* Navigation Bar */
 header {
@@ -204,5 +205,58 @@ nav .btn {
   }
   header .container h1 {
     font-size: 1rem;
+  }
+}
+
+/* Brand section */
+
+section.branding {
+  background: var(--clr-blue-300);
+  padding: 6rem;
+  overflow-y: hidden;
+  position: relative;
+}
+section.branding img {
+  width: 200px;
+  padding-left: 2rem;
+}
+section.branding .text {
+  flex: 1 0 40%;
+  color: var(--clr-white-200);
+  position: relative;
+  /* margin-left: 2rem; */
+}
+section.branding .text h1 {
+  color: var(--clr-white-200);
+  font-size: 2.5rem;
+}
+section.branding .text p {
+  line-height: 1.6rem;
+  padding: 1.5rem 0;
+}
+section.branding .text .btn {
+  background: none;
+  border: 1px solid var(--clr-white-200);
+  transition: all 0.3s ease-in-out;
+  /* position: absolute; */
+}
+section.branding .text .btn:hover {
+  background: var(--clr-white-200);
+  color: var(--clr-blue-300);
+}
+section.branding .text img {
+  position: absolute;
+  transform: scale(4.5);
+  top: -120px;
+  left: 50px;
+}
+section.branding .images {
+  flex: 1 0 60%;
+  min-height: 150px;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  section.branding {
+    flex-direction: column-reverse;
   }
 }
