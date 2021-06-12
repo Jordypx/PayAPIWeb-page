@@ -43,8 +43,6 @@ h1 {
   color: var(--clr-white-100);
   font-family: var(--fs-200);
   text-decoration: none;
-  z-index: 2;
-  position: relative;
   transition: all 0.3s ease-in-out;
   font-family: var(--ff-sans);
   box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);

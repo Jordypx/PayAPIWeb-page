@@ -19,6 +19,8 @@ header {
 header nav {
   padding: var(--fs-600) 0;
   width: 100%;
+  z-index: 2;
+  position: relative;
 }
 
 header nav ul {
