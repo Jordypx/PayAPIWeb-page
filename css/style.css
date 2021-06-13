@@ -270,3 +270,67 @@ section.branding .images {
 section.branding img {
   width: 70%;
 }
+@media (max-width: 1200px) {
+  section.branding .text img {
+    position: absolute;
+    transform: scale(2.5);
+    top: -20px;
+    left: 50px;
+  }
+  section.branding .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  section.branding {
+    padding: 3rem 1rem;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  section.branding .text img {
+    transform: scale(1);
+    top: -550px;
+    left: -200px;
+  }
+  section.branding .images {
+    padding-bottom: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 0rem;
+  }
+  section.branding img {
+    width: 100%;
+  }
+  section.branding .text h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  section.branding {
+    padding: 3rem 1rem;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  section.branding .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section.branding .text img {
+    transform: scale(1.5);
+    top: -350px;
+    left: -200px;
+  }
+}
+/* Features section */
+section.features {
+  background-color: var(--clr-white-200);
+  padding: 4rem 6rem;
+}
+section.features > div {
+  flex: 1 0 50%;
+}
+section.features > div h1 {
+  font-size: 2.5rem;
+}
+section.features > div p {
+  line-height: 1.6rem;
+  padding: 1.5rem 0;
+}
