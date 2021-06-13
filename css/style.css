@@ -8,7 +8,7 @@
   margin: 0 auto;
   max-width: 1440px;
   overflow-x: hidden;
-  height: 4450px;
+  /* height: 4450px; */
 }
 /* Navigation Bar */
 header {
@@ -322,7 +322,7 @@ section.branding img {
 /* Features section */
 section.features {
   background-color: var(--clr-white-200);
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 2rem 6rem;
 }
 section.features > div {
   flex: 1 0 50%;
@@ -333,4 +333,84 @@ section.features > div h1 {
 section.features > div p {
   line-height: 1.6rem;
   padding: 1.5rem 0;
+}
+/* Features Second section */
+section.features-section {
+  background-color: var(--clr-white-200);
+  padding: 0rem 6rem 2rem 6rem;
+}
+section.features-section img:first-child {
+  transform: scale(1.5);
+  position: relative;
+  left: 80%;
+  z-index: 1;
+}
+section.features-section > div {
+  flex: 1 0 50%;
+}
+section.features-section > div h1 {
+  font-size: 2.5rem;
+}
+section.features-section > div p {
+  line-height: 1.6rem;
+  padding: 1.5rem 0;
+}
+section.features-section img:last-child {
+  position: absolute;
+  width: 50%;
+  right: -0px;
+}
+/* cards */
+section.card {
+  background-color: var(--clr-white-200);
+  padding: 4rem 6rem 2rem 6rem;
+}
+section.card .wrapper {
+  text-align: center;
+  padding-left: -2.5rem;
+}
+section.card .wrapper > div {
+  padding-left: 2.5rem;
+}
+section.card .wrapper img {
+  width: 100px;
+}
+section.card .wrapper h3 {
+  padding: 1rem 0;
+  color: var(--clr-blue-200);
+}
+section.card .wrapper p {
+  line-height: 1.6rem;
+  color: var(--clr-blue-100);
+}
+/* input-box */
+section.card .container {
+  margin: 4rem 0;
+  text-align: center;
+}
+section.card .container h1 {
+  font-size: 3rem;
+}
+section.card .container div:first-child {
+  flex: 1 0 40%;
+}
+/* Footer section */
+footer {
+  padding: 2rem 6rem;
+  background-color: var(--clr-blue-300);
+}
+footer img {
+  width: 150px;
+}
+footer ul li {
+  padding-left: 2rem;
+}
+footer .fab {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: var(--clr-white-100);
+  transition: all 0.3s ease-in-out;
+}
+footer .fab:hover {
+  color: var(--clr-pink-200);
 }

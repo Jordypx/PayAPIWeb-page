@@ -26,8 +26,10 @@
 }
 
 a,
-p {
+p,
+h3 {
   font-family: var(--ff-sans);
+  color: var(--clr-blue-100);
 }
 
 h1 {
@@ -98,4 +100,10 @@ img {
 .input-box a {
   position: relative;
   left: -170px;
+}
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
 }
