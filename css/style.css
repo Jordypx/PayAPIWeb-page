@@ -334,6 +334,16 @@ section.features > div p {
   line-height: 1.6rem;
   padding: 1.5rem 0;
 }
+@media (max-width: 900px) {
+  section.features {
+    padding: 3rem 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* section.features img {
+    width: 90%;
+  } */
+}
 /* Features Second section */
 section.features-section {
   background-color: var(--clr-white-200);
@@ -359,6 +369,20 @@ section.features-section img:last-child {
   position: absolute;
   width: 50%;
   right: -0px;
+}
+@media (max-width: 900px) {
+  section.features-section {
+    padding: 3rem 1rem;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  section.features-section img:first-child {
+    display: none;
+  }
+  section.features-section img:last-child {
+    position: relative;
+    width: 90%;
+  }
 }
 /* cards */
 section.card {
@@ -393,6 +417,13 @@ section.card .container h1 {
 }
 section.card .container div:first-child {
   flex: 1 0 40%;
+}
+@media (max-width: 900px) {
+  section.card .wrapper {
+    padding: 3rem 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 /* Footer section */
 footer {
