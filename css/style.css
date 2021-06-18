@@ -472,3 +472,93 @@ footer .fab:hover {
     padding: 1rem 0;
   }
 }
+
+/* Pricing.html */
+
+section.pricing {
+  padding: 3rem 6rem 0rem 6rem;
+  background-color: var(--clr-white-200);
+}
+section.pricing .wrapper .middle {
+  padding: 0 2rem;
+}
+section.pricing h1 {
+  font-size: 3rem;
+}
+section.pricing .wrapper h2 {
+  color: var(--clr-pink-200);
+  font-size: 2rem;
+  padding: 2rem 0 1rem 0;
+}
+section.pricing .wrapper h1 {
+  color: var(--clr-blue-200);
+  font-family: var(--ff-sans);
+  padding: 2rem 0;
+}
+section.pricing .wrapper ul {
+  padding-bottom: 1rem;
+}
+section.pricing .wrapper ul li {
+  font-family: var(--ff-sans);
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+}
+section.pricing .wrapper .fas {
+  color: var(--clr-pink-200);
+  padding-right: 0.5rem;
+}
+section.pricing .wrapper .btn {
+  margin-top: 1rem;
+  background-color: var(--clr-white-200);
+  color: var(--clr-blue-200);
+  border: 1px solid var(--clr-blue-200);
+}
+section.pricing .wrapper .btn:hover {
+  color: var(--clr-white-100);
+  background-color: var(--clr-blue-200);
+}
+
+@media (max-width: 900px) {
+  section.pricing {
+    text-align: center;
+  }
+  section.pricing .wrapper {
+    flex-direction: column;
+  }
+  section.pricing .wrapper > div {
+    margin-top: 2rem;
+  }
+  section.pricing .wrapper h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 700px) {
+  section.pricing {
+    padding: 3rem 2rem 0rem 2rem;
+    background-color: var(--clr-white-200);
+  }
+}
+
+/* about.html */
+section.about {
+  padding: 3rem 0;
+  background-color: var(--clr-white-200);
+}
+section.about .wrapper {
+  display: flex;
+  padding: 2rem 6rem;
+}
+section.about h1 {
+  font-size: 4rem;
+  padding: 0 6rem;
+}
+section.about .wrapper h1 {
+  font-size: 2rem;
+  flex: 1 0 30%;
+}
+section.about .wrapper p {
+  font-size: 1 0 70%;
+}
+section.about .img {
+  width: 100%;
+}
