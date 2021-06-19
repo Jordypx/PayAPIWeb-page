@@ -660,6 +660,8 @@ section.txt {
 @media (max-width: 900px) {
   section.txt {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
+  section.branding-contact {
+    padding: 2rem 2rem;
 }
