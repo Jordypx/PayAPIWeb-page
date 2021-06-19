@@ -664,4 +664,8 @@ section.txt {
   }
   section.branding-contact {
     padding: 2rem 2rem;
+  }
+  section.txt {
+    padding: 0rem 1rem;
+  }
 }
